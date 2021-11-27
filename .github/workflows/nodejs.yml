@@ -27,7 +27,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: galactus.top
+          server: ftp://139.186.169.181:21
           username: ${{ secrets.ftp_user }}
           password: ${{ secrets.ftp_pwd }}
           local-dir: ./build/
