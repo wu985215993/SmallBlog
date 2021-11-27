@@ -24,13 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/wu985215993/SmallBlog/blob/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          editUrl: 'https://github.com/wu985215993/SmallBlog/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -46,7 +45,7 @@ const config = {
         title: "StickerWu's Blog",
         logo: {
           alt: "StickerWu's Blog Logo",
-          src: 'img/logo.svg',
+          src: 'img/avatar.jfif',
         },
         items: [
           {
