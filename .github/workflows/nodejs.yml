@@ -29,12 +29,13 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        ftp-server: ftp://139.186.169.181:21/
-        ftp-username: ${{ secrets.ftp_user }}
-        ftp-password: ${{ secrets.ftp_pwd }}
-        local-dif: build/
+        server: galactus.top
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_pwd }}
+        local-dif: ./build/
+        server=dir: ./
       env:
         CI: true
     
