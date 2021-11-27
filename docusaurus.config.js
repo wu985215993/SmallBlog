@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: "StickerWu's Blog",
         logo: {
-          alt: 'My Site Logo',
+          alt: "StickerWu's Blog Logo",
           src: 'img/logo.svg',
         },
         items: [
@@ -53,11 +53,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文章',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: '博客', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/wu985215993',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,7 +70,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: '文章',
                 to: '/docs/intro',
               },
             ],
@@ -101,12 +101,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/wu985215993',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} StickerWu\'s Blog, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
