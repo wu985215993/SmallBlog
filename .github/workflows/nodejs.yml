@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: windows-lasted
+    runs-on: windows-latest
 
     strategy:
       matrix:
