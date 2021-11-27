@@ -6,7 +6,7 @@ tags: [Spacing.js, funny,库]
 ---
 
 <!-- # Spacing.js-快速查看网页元素间距 -->
-
+<!--truncate -->
 ## [有了它，把网页做到跟设计图一样](https://www.bilibili.com/video/BV1rR4y1E7xg?spm_id_from=333.851.b_7265636f6d6d656e64.1)
 
 ![img](https://github.com/stevenlei/spacingjs/raw/main/screenshot.png)
@@ -14,7 +14,6 @@ tags: [Spacing.js, funny,库]
 ### 如何使用
 
 1. 在 HTML 页面中通过 `<script>` 标签加载 Spacing.js：
-
 - UNPKG CDN:
 
 ```html
