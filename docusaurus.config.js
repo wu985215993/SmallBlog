@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "StickerWu's Blog",
+  title: "记录知识 温习技术，ME & Friend's Blog",
   tagline: '一个刚入行的前端开发菜鸡，请多指教',
   url: 'http://blog.galactus.top',
   baseUrl: '/',
